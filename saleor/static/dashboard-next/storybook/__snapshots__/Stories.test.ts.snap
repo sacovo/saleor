@@ -27051,59 +27051,101 @@ exports[`Storyshots Views / Discounts / Sale create default 1`] = `
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
             <hr
-              class="Hr-root-id"
+              class="CardTitle-hr-id"
             />
             <div
-              class="MuiCardContent-root-id SalePricing-root-id"
+              class="MuiCardContent-root-id"
             >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
               <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                class="Grid-root-id Grid-uniform-id"
               >
-                <label
-                  class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  Start Date
-                </label>
                 <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
                 >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value=""
-                  />
+                  <label
+                    class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value=""
+                    />
+                  </div>
                 </div>
               </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+              <label
+                class="MuiFormControlLabel-root-id"
               >
-                <label
-                  class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
                 >
                   <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
                   />
-                </div>
-              </div>
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
             </div>
           </div>
         </div>
@@ -27268,69 +27310,111 @@ exports[`Storyshots Views / Discounts / Sale create form errors 1`] = `
                 </p>
               </div>
             </div>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
             <hr
-              class="Hr-root-id"
+              class="CardTitle-hr-id"
             />
             <div
-              class="MuiCardContent-root-id SalePricing-root-id"
+              class="MuiCardContent-root-id"
             >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
               <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                class="Grid-root-id Grid-uniform-id"
               >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  Start Date
-                </label>
                 <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="true"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id"
+                  >
+                    Generic form error
+                  </p>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="true"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value=""
+                    />
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id"
+                  >
+                    Generic form error
+                  </p>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
                 >
                   <input
-                    aria-invalid="true"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value=""
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
                   />
-                </div>
-                <p
-                  class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id"
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
                 >
-                  Generic form error
-                </p>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="true"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
-                </div>
-                <p
-                  class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id"
-                >
-                  Generic form error
-                </p>
-              </div>
+                  Set end date
+                </span>
+              </label>
             </div>
           </div>
         </div>
@@ -27487,61 +27571,103 @@ exports[`Storyshots Views / Discounts / Sale create loading 1`] = `
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
             <hr
-              class="Hr-root-id"
+              class="CardTitle-hr-id"
             />
             <div
-              class="MuiCardContent-root-id SalePricing-root-id"
+              class="MuiCardContent-root-id"
             >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
               <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                class="Grid-root-id Grid-uniform-id"
               >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  Start Date
-                </label>
                 <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
                 >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
-                    disabled=""
-                    name="startDate"
-                    type="date"
-                    value=""
-                  />
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
+                      disabled=""
+                      name="startDate"
+                      type="date"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
+                      disabled=""
+                      name="startTime"
+                      type="time"
+                      value=""
+                    />
+                  </div>
                 </div>
               </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+              <label
+                class="MuiFormControlLabel-root-id"
               >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
                 >
                   <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
-                    disabled=""
-                    name="endDate"
-                    type="date"
-                    value=""
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
                   />
-                </div>
-              </div>
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
             </div>
           </div>
         </div>
@@ -27693,60 +27819,6 @@ exports[`Storyshots Views / Discounts / Sale details collections 1`] = `
                       />
                     </svg>
                   </div>
-                </div>
-              </div>
-            </div>
-            <hr
-              class="Hr-root-id"
-            />
-            <div
-              class="MuiCardContent-root-id SalePricing-root-id"
-            >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
-                  data-shrink="true"
-                >
-                  Start Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value="2019-01-03"
-                  />
-                </div>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
                 </div>
               </div>
             </div>
@@ -27987,6 +28059,102 @@ exports[`Storyshots Views / Discounts / Sale details collections 1`] = `
               </tbody>
             </table>
           </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
+            <hr
+              class="CardTitle-hr-id"
+            />
+            <div
+              class="MuiCardContent-root-id"
+            >
+              <div
+                class="Grid-root-id Grid-uniform-id"
+              >
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value="2019-01-03"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value="00:00"
+                    />
+                  </div>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
+            </div>
+          </div>
         </div>
         <div>
           <div
@@ -28219,60 +28387,6 @@ exports[`Storyshots Views / Discounts / Sale details default 1`] = `
                       />
                     </svg>
                   </div>
-                </div>
-              </div>
-            </div>
-            <hr
-              class="Hr-root-id"
-            />
-            <div
-              class="MuiCardContent-root-id SalePricing-root-id"
-            >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
-                  data-shrink="true"
-                >
-                  Start Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value="2019-01-03"
-                  />
-                </div>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
                 </div>
               </div>
             </div>
@@ -28516,6 +28630,102 @@ exports[`Storyshots Views / Discounts / Sale details default 1`] = `
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
+            <hr
+              class="CardTitle-hr-id"
+            />
+            <div
+              class="MuiCardContent-root-id"
+            >
+              <div
+                class="Grid-root-id Grid-uniform-id"
+              >
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value="2019-01-03"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value="00:00"
+                    />
+                  </div>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
+            </div>
           </div>
         </div>
         <div>
@@ -28762,70 +28972,6 @@ exports[`Storyshots Views / Discounts / Sale details form errors 1`] = `
                 </p>
               </div>
             </div>
-            <hr
-              class="Hr-root-id"
-            />
-            <div
-              class="MuiCardContent-root-id SalePricing-root-id"
-            >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
-                  data-shrink="true"
-                >
-                  Start Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="true"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value="2019-01-03"
-                  />
-                </div>
-                <p
-                  class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id MuiFormHelperText-filled-id"
-                >
-                  Generic form error
-                </p>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="true"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
-                </div>
-                <p
-                  class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id"
-                >
-                  Generic form error
-                </p>
-              </div>
-            </div>
           </div>
           <div
             class="CardSpacer-spacer-id"
@@ -29066,6 +29212,112 @@ exports[`Storyshots Views / Discounts / Sale details form errors 1`] = `
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
+            <hr
+              class="CardTitle-hr-id"
+            />
+            <div
+              class="MuiCardContent-root-id"
+            >
+              <div
+                class="Grid-root-id Grid-uniform-id"
+              >
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="true"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value="2019-01-03"
+                    />
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id MuiFormHelperText-filled-id"
+                  >
+                    Generic form error
+                  </p>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-error-id MuiInputLabel-error-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-error-id MuiFilledInput-error-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="true"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value="00:00"
+                    />
+                  </div>
+                  <p
+                    class="MuiFormHelperText-root-id MuiFormHelperText-contained-id MuiFormHelperText-error-id MuiFormHelperText-filled-id"
+                  >
+                    Generic form error
+                  </p>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
+            </div>
           </div>
         </div>
         <div>
@@ -29309,62 +29561,6 @@ exports[`Storyshots Views / Discounts / Sale details loading 1`] = `
                 </div>
               </div>
             </div>
-            <hr
-              class="Hr-root-id"
-            />
-            <div
-              class="MuiCardContent-root-id SalePricing-root-id"
-            >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  Start Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
-                    disabled=""
-                    name="startDate"
-                    type="date"
-                    value=""
-                  />
-                </div>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
-                    disabled=""
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
-                </div>
-              </div>
-            </div>
           </div>
           <div
             class="CardSpacer-spacer-id"
@@ -29605,6 +29801,104 @@ exports[`Storyshots Views / Discounts / Sale details loading 1`] = `
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
+            <hr
+              class="CardTitle-hr-id"
+            />
+            <div
+              class="MuiCardContent-root-id"
+            >
+              <div
+                class="Grid-root-id Grid-uniform-id"
+              >
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
+                      disabled=""
+                      name="startDate"
+                      type="date"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-disabled-id MuiInputLabel-disabled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
+                    data-shrink="false"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-disabled-id MuiFilledInput-disabled-id MuiInputBase-inputType-id"
+                      disabled=""
+                      name="startTime"
+                      type="time"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
+            </div>
           </div>
         </div>
         <div>
@@ -29854,60 +30148,6 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                       />
                     </svg>
                   </div>
-                </div>
-              </div>
-            </div>
-            <hr
-              class="Hr-root-id"
-            />
-            <div
-              class="MuiCardContent-root-id SalePricing-root-id"
-            >
-              <h6
-                class="MuiTypography-root-id MuiTypography-subtitle1-id SalePricing-subheading-id"
-              >
-                Time Frame
-              </h6>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
-                  data-shrink="true"
-                >
-                  Start Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="startDate"
-                    type="date"
-                    value="2019-01-03"
-                  />
-                </div>
-              </div>
-              <div
-                class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
-              >
-                <label
-                  class="MuiFormLabel-root-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-filled-id"
-                  data-shrink="false"
-                >
-                  End Date
-                </label>
-                <div
-                  class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
-                >
-                  <input
-                    aria-invalid="false"
-                    class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
-                    name="endDate"
-                    type="date"
-                    value=""
-                  />
                 </div>
               </div>
             </div>
@@ -30419,6 +30659,102 @@ exports[`Storyshots Views / Discounts / Sale details products 1`] = `
                 </tr>
               </tbody>
             </table>
+          </div>
+          <div
+            class="CardSpacer-spacer-id"
+          />
+          <div
+            class="MuiPaper-root-id MuiPaper-elevation1-id MuiPaper-rounded-id MuiCard-root-id"
+          >
+            <div
+              class="CardTitle-root-id"
+            >
+              <span
+                class="MuiTypography-root-id MuiTypography-h5-id CardTitle-title-id"
+              >
+                Active Dates
+              </span>
+              <div
+                class="CardTitle-toolbar-id"
+              />
+            </div>
+            <div
+              class="CardTitle-children-id"
+            />
+            <hr
+              class="CardTitle-hr-id"
+            />
+            <div
+              class="MuiCardContent-root-id"
+            >
+              <div
+                class="Grid-root-id Grid-uniform-id"
+              >
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Date
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startDate"
+                      type="date"
+                      value="2019-01-03"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="MuiFormControl-root-id MuiFormControl-fullWidth-id"
+                >
+                  <label
+                    class="MuiFormLabel-root-id MuiFormLabel-filled-id MuiInputLabel-root-id MuiInputLabel-formControl-id MuiInputLabel-animated-id MuiInputLabel-shrink-id MuiInputLabel-filled-id"
+                    data-shrink="true"
+                  >
+                    Start Hour
+                  </label>
+                  <div
+                    class="MuiInputBase-root-id MuiFilledInput-root-id MuiFilledInput-underline-id MuiInputBase-fullWidth-id MuiInputBase-formControl-id"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input-id MuiFilledInput-input-id MuiInputBase-inputType-id"
+                      name="startTime"
+                      type="time"
+                      value="00:00"
+                    />
+                  </div>
+                </div>
+              </div>
+              <label
+                class="MuiFormControlLabel-root-id"
+              >
+                <button
+                  class="MuiButtonBase-root-id Checkbox-root-id"
+                  tabindex="0"
+                  type="button"
+                >
+                  <input
+                    class="Checkbox-box-id"
+                    name="hasEndDate"
+                    type="checkbox"
+                    value="false"
+                  />
+                </button>
+                <span
+                  class="MuiTypography-root-id MuiTypography-body2-id MuiFormControlLabel-label-id"
+                >
+                  Set end date
+                </span>
+              </label>
+            </div>
           </div>
         </div>
         <div>

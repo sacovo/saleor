@@ -14,12 +14,12 @@ import {
   DiscountValueTypeEnum,
   VoucherTypeEnum
 } from "../../../types/globalTypes";
-import VoucherDates from "../VoucherDates";
 import VoucherInfo from "../VoucherInfo";
 import VoucherLimits from "../VoucherLimits";
 import VoucherRequirements from "../VoucherRequirements";
 import VoucherTypes from "../VoucherTypes";
 
+import DiscountDates from "../DiscountDates";
 import VoucherValue from "../VoucherValue";
 export interface FormData {
   applyOncePerOrder: boolean;
@@ -119,7 +119,7 @@ const VoucherCreatePage: React.StatelessComponent<VoucherCreatePageProps> = ({
                 onChange={change}
               />
               <CardSpacer />
-              <VoucherDates
+              <DiscountDates
                 data={data}
                 disabled={disabled}
                 defaultCurrency={defaultCurrency}
